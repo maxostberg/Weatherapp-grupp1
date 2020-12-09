@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background: linear-gradient(#D06679, #FBC06B) no-repeat;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 2rem 3rem;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.middle-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.weather-type{
+    margin-right: 3rem;
+}
+
+.weather-data{
+    margin-left: 3rem;
+    text-align: center;
+}
+
+.weather-data-list{
+    display: flex;
+}
+
+.middle-two{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.week-weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.week-container{
+    width: 60%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.faren{
+    margin-right: 1rem;
+}
