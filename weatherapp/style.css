@@ -9,6 +9,7 @@
 body{
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  background: linear-gradient(#D06679, #FBC06B) no-repeat;
+ color: #ffffff;
 }
 
 ul{
@@ -63,6 +64,10 @@ ul{
 .week-container{
     width: 60%;
 }
+.city-form{
+    display: flex;
+    
+}
 
 .bottom{
     display: flex;
@@ -72,3 +77,83 @@ ul{
 .faren{
     margin-right: 1rem;
 }
+
+.img-days{
+    color: #ffffff;
+    font-size: 3.5rem;
+} 
+
+.img-one{
+    font-size: 4.5rem;  
+}
+
+.fa-wind, .fa-smog, .fa-cloud-sun-rain{
+    font-size: 2rem;
+    margin: 1rem 2rem;
+}
+
+.weather-info{
+    margin-top: 2rem;
+}
+
+.day-text{
+    font-size: 0.8rem;
+    text-align: center;
+}
+.highest-lowest{
+    text-align: center;
+    padding: .5rem 0rem;
+}
+
+.degrees{
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.weather-info{
+    font-size: 1.5rem;
+}
+
+.unit-btn{
+    font-size: 1rem;
+    border: 3px solid white;
+    background: transparent;
+    padding: .6rem .7rem;
+    color: white;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(223, 193, 27);
+    padding: .9rem;
+    transform: translateX(194px)
+    
+}
+
+.fa-search{
+ font-size: 1rem;
+ color: white;
+
+}
+
+.search-city{
+    padding: .8rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    transform: translateX(-25px);
+    outline: none;
+    /* display: none; */ 
+     
+}
+
+/* .btn:hover +.search-city{
+   display: block;
+   
+} 
+.btn:hover{
+    transform: translateX(170px);  
+} */
+
